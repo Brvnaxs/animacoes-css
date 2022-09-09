@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    position:relative;
+    height: 200px;
+    width: 200px;
+    animation-name: posicionarLogo;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+@keyframes posicionarLogo{
+    from{
+        height: 200px;
+        width: 200px;
+    }
+    to{
+        margin-bottom: 500px;
+        margin-right: 1100px;
+        height: 70px;
+        width: 70px;
+    }
+}

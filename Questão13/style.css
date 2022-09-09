@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+}
+@keyframes subirDescer{
+    from{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    25%{
+        margin-bottom: 100px;
+    }
+    75%{
+        margin-top: 100px;
+    }
+    to{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+#um{
+    animation-name: subirDescer;
+    animation-duration: 3s;
+    background-color: seagreen;
+    
+}
+#dois{
+    animation-name: subirDescer;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    background-color: salmon;
+    
+}
+#tres{
+    animation-name: subirDescer;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    background-color: sienna;
+   
+}

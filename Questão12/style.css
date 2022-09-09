@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    position: relative;
+    height: 350px;
+    width: 250px;
+    background-color: rgb(92, 150, 186);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 23px;
+    animation-name: EntrarNaTela;
+    animation-duration: 10s;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 23px;
+    padding-left: 10px;
+}
+button{
+    height: 30px;
+    width: 100px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 23px;
+    background-color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+@keyframes EntrarNaTela {
+    from{
+        margin-top: -1000px;
+    }
+    to{
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color:aquamarine;
+    animation-name: mover360;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+@keyframes mover360 {
+    from{ left: 45; }
+    12.5%{rotate: 90deg; 
+        background-color: blue;}
+    25%{rotate: 135deg; 
+        background-color: rgb(8, 100, 59);}
+    37.5%{rotate: 180deg; 
+        background-color: rgb(211, 30, 151);}
+    50%{rotate: 225deg; 
+        background-color: rgb(255, 0, 106);}
+    62.5%{rotate: 270deg; 
+        background-color: rgb(191, 255, 0);}
+    75%{rotate: 315deg; 
+        background-color: rgb(113, 183, 55);}
+    to{rotate: 360deg; 
+        background-color: rgb(255, 81, 0);}
+}
