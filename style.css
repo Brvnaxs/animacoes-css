@@ -1,0 +1,26 @@
+body{ 
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: space-around;
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.boxes{
+    margin-top: 50px;
+    height: 150px;
+    width: 150px;
+    background-color: seagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    border-radius: 23px;
+    transition: 2s;
+}
+.boxes:hover{
+    transform: scale(1.1);
+}
